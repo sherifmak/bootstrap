@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Sections */
+section {
+  position: relative;
+}
+
+.colored {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.whited {
+  background-color: #fff;
+  color: #000;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title area */
+#title {
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+/* feature section */
+#features {
+  position: relative;
+  z-index: 2;
+}
+
+.feature {
+  padding: 32px 32px 32px 32px;
+}
+
+.desc {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: red;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  padding-top: 18px;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testi-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-inner {}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press side */
+#press {
+  padding: 7%;
+  background-color: #ef8172;
+}
+
+.presi {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.prici-colo {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* media change */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to action */
+#cta {}
+
+/* Footer stuff */
+#footer {
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+.contact-bar {
+  width: 300px;
+  margin: auto;
+  padding: 5% 7%;
+}
+
+.contact-item {
+  padding: 3% 1%;
+}
+
+.footer-icon {
+  padding: 0 10px;
+}
